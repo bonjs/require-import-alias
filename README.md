@@ -16,8 +16,8 @@ const moduleA = require('../../../src/component/render/moduleA');
 
 Now we can use this tool `require-import-alias` to set alias for the moduleA, such as :
 ~~~javascript
-const requireAliasNode = require('require-import-alias');
-requireAliasNode.setAlias({
+const requireImportAlias = require('require-import-alias');
+requireImportAlias.setAlias({
 	'component': '../../../src/component',
 	'moduleA': '../../../src/component/render/moduleA'
 });
@@ -30,7 +30,7 @@ const moduleB = require('component/main/moduleB')'
 setAlias
 ~~~javascript
 import requireImportAlias from 'require-import-alias'
-requireAliasNode.setAlias({
+requireImportAlias.setAlias({
 	'component': '../../../src/component',
 	'moduleA': '../../../src/component/render/moduleA'
 });
