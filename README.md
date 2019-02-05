@@ -1,5 +1,5 @@
 # require-import-alias
-### A tool which could set an alias for the module's path which is required in the require of nodejs     or import of ES6
+#### A tool which could set an alias for the module's path which is required in the require of nodejs     or import of ES6
 
 It's the alias of `require-alias-node`
 
@@ -8,7 +8,7 @@ It's the alias of `require-alias-node`
 npm install require-import-alias
 ~~~
 
-Sometimes, we may use a module with a long path to be required, and the path may contain many level, is's not very intuitive ! 
+Sometimes, we may use a module with a long path to be required, and the path may contain many level, it's not very intuitive ! 
 ~~~javascript
 const component = require('../../../src/component');
 const moduleA = require('../../../src/component/render/moduleA');
@@ -25,7 +25,7 @@ const moduleA = require('moduleA');
 const moduleB = require('component/main/moduleB')'
 ~~~
 
-### and you can also use it with `import` in ES2015(set an alias is a module, and use the alias in anthor module)
+#### and you can also use it with `import` in ES2015(set an alias is a module, and use the alias in anthor module)
 
 setAlias
 ~~~javascript
